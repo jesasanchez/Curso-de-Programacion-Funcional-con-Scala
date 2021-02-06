@@ -1,4 +1,4 @@
-package Introduccion
+package introduccion
 
 object holaMundo extends App{
   println("Hola Platzi")
