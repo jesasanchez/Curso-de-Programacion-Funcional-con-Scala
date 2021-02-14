@@ -59,5 +59,7 @@ object blucles {
       {
         println(x)
       }
+
+    minusculas(4)
   }
 }
