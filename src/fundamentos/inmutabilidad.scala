@@ -19,5 +19,8 @@ object inmutabilidad {
    * No, porque simplifica mucha de la carga congnitica en un sistema
    *
    */
+  val r: String = "Alberto"
 
+  /* Retrasa la creación real del objeto hasta que es invocada, esto nos ahorra recursos del sistema*/
+  lazy val x1 = 1/10
 }
